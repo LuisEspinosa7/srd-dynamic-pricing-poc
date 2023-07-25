@@ -4,9 +4,11 @@ import Routes from "./Routes"
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes />
-    </BrowserRouter>
+    <main className='min-h-screen'>
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
+    </main>
   );
 }
 
